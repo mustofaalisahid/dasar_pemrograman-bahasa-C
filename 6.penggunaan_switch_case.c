@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Switch case digunakan untuk membuat seperti pilihan ganda. Sehingga user dapat memilih isi dari menu yang telah disediakan.
 int main()
 {
     char jenis;
