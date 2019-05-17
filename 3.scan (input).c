@@ -7,7 +7,7 @@
 //kamus
 int angka1; //variabel int buat bil bulat
 int angka2; //gak boleh ada spasi lho
-float pecahan1, pecahan2, jml; //2 langsung bisa, trs float buat masukin pecahan
+float pecahan1, pecahan2, jml; //2 langsung bisa, trs float buat masukin pecahan / desimal
 
 //deskripsi
 int main()
@@ -19,7 +19,7 @@ int main()
 
     //input
     printf("Lihat angka 1 =\n");
-    scanf("%d", &angka1);
+    scanf("%d", &angka1); // ini dibaca : input kedalam variabel angka1 yang bertipe int (nanti ketika di run, maka bisa di input nilai int / bilangan bulat)
     //tampilan
     printf("Angka 1 = %d\n", angka1);
     //%d digunakan buat km pengen naruh variabelnya dimana, buat int
@@ -29,7 +29,7 @@ int main()
     printf("Angka 2 = %d\n", angka2);
 
     printf("Jumlah angka =\n");
-    scanf("%f", &jml);
+    scanf("%f", &jml); // ini dibaca : input kedalam variabel jml yang bertipe float (nanti ketika di run, maka bisa di input nilai float / desimal)
     printf("Angka 1 + Angka 2 = %.2f\n", jml);
     //jangan lupa titik koma yaa
 
