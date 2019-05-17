@@ -10,8 +10,10 @@
 main()
 {
     printf("Biodata\n");
-    printf("Nama : Mustofa Alisahid\n");
-    printf("Alamat : Sri Rejeki Timur VII\n");
-    printf("TTL : Semarang, 12 Nov 1996");
+    printf("Nama \t: Mustofa Alisahid\n");
+    printf("Alamat \t: Sri Rejeki Timur VII\n");
+    printf("TTL \t: Semarang, 12 Nov 1996");
 }
 // printf digunakan untuk menampilkan (print) sebuah kalimat
+// (\n) digunakan untuk mencetak "Enter"
+// (\t) digunakan untuk mencetak "Tab"
