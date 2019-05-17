@@ -8,8 +8,8 @@ float nilaiAkhir;
 main()
 {
     printf("Masukkan nilai tugas\t : "); scanf("%d", &tgs);
-    if(tgs<0 || tgs>100){printf("\ninvailid\n\n");}
-    if(tgs<0 || tgs>100){return 0;}
+    if(tgs<0 || tgs>100){printf("\ninvailid\n\n");}  // tanda "||" menunjukan kondisi "atau(or)", sedangkan "&&" menunjukkan kondisi "dan(and)".
+    if(tgs<0 || tgs>100){return 0;} // agar lebih mudah memahami, pelajari terlebih dahulu logika "and" dan "or"
 
     printf("Masukkan nilai UTS\t : "); scanf("%d", &uts);
     if(uts<0 || uts>100){printf("\ninvailid\n\n");}
