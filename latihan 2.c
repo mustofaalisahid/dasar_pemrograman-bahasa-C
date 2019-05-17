@@ -1,11 +1,10 @@
-//judul : latihan ke 2
+//judul : latihan mencetak
 //nama : mustofa alisahid
 //alamat : sri rejeki timur vii
 //ttl : semarang, 12 nov 1996
 //17 sept 2015
 //oleh mustofa
-#include "stdio.h"
-//kamus
+#include "stdio.h" //kamus
 
 //diskripsi
 main()
